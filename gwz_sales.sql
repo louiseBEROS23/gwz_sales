@@ -4,3 +4,4 @@ SELECT
   ,ROUND(SUM(purchase_cost),2) as total_purchase_cost
  FROM `data-analytics-bootcamp-363212.course14.gwz_sales` 
 GROUP BY date_date
+ORDER BY date_date ASC
